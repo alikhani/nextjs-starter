@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alikhani/nextjs-starter.git",
+  "author": "alikhani <nimaalikhani5@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "apollo-client-preset": "^1.0.5",
+    "apollo-link-persisted-queries": "^0.1.0",
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.2.0",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "graphql": "^0.12.3",
+    "graphql-tag": "^2.6.1",
+    "helmet": "^3.9.0",
+    "isomorphic-unfetch": "^2.0.0",
+    "js-cookie": "^2.2.0",
+    "jsonwebtoken": "^8.1.0",
+    "moment": "^2.20.1",
+    "next": "^4.2.1",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-icons": "^2.2.7",
+    "request-promise": "^4.2.2"
+  }
+}
